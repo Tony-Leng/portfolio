@@ -1,0 +1,99 @@
+/* fullpage */
+h1, h2, h3, h4 {
+    color: #F8F0E3; 
+    font-family: 'Bebas Neue', cursive;
+}
+
+p {
+    color: #F8F0E3; 
+    font-family: 'Roboto', sans-serif;
+}
+
+/* main view///////////////////////// */
+.name {
+    font-size: 100px;
+    animation: 3s anim-lineUp ease-out;
+    text-align: center;
+}
+.title {
+    font-family: 'Roboto', sans-serif;
+    border-top: #F8F0E3 solid 2px;
+    padding-top: 24px;
+    animation: 3s anim-lineUp ease-out;
+    text-align: center;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+#home-img {
+    width: 360px;
+    animation: 3s anim-lineUp ease-out;
+}
+
+.initial-view {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.aboutmewrapper {
+  display: grid;
+  grid-template-columns: 1fr 1.45fr 1fr;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  /* width: 360px; */
+}
+
+.cardwrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.formwrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* //////////////project-card//////////////// */
+.card-description {
+  width: 360px;
+}
+
+#card-projects {
+  margin-top: 80px;
+}
+
+.contactme {
+  margin-top: 80px;
+}
+
+.projectimg {
+  /* box-shadow: 5px 10px #F8F0E3; */
+  transition: transform 1s ease-in-out;
+}
+
+.projectimg:hover {
+  transition: transform 1s ease-in-out;
+  transform: scale(1.05);
+} 
