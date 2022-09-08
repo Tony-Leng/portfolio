@@ -1,0 +1,10 @@
+i {
+  font-size: 160px;
+  margin: 0px 16px;
+}
+
+.language-icons {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 160px;
+}

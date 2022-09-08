@@ -8,13 +8,13 @@
 }
 
 .navbar-brand {
-    color: #F8F0E3; 
+    color: #F8F0E3;
     font-family: 'Bebas Neue', cursive;
     transition: transform 1s ease-in-out;
 }
 
 .navbar-brand:hover {
-    color: #F8F0E3; 
+    color: #F8F0E3;
     transform: scale(1.5);
     transition: transform 1s ease-in-out;
 }
@@ -28,7 +28,7 @@
 #navbar-text {
     position: relative;
   }
-  
+
 #navbar-text::before {
       content: '';
       position: absolute;
@@ -42,7 +42,7 @@
       transform: scaleX(0);
       transition: transform .3s ease-in-out;
     }
-  
+
 #navbar-text:hover::before {
     transform-origin: left;
     transform: scaleX(1);

@@ -1,0 +1,14 @@
+.card-description {
+  width: 360px;
+}
+
+.card-projects {
+  margin: 40px auto;
+  border-radius: 8px;
+  width: 616px;
+  height: 308px;
+}
+
+.card-img {
+  /* margin-left: 120px; */
+}
