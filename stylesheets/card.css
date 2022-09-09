@@ -1,10 +1,16 @@
-.card-description {
-  width: 400px;
+.card-projects {
+  margin: 120px auto;
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  border-left: 2px solid #F8F0E3;
+  padding-left: 16px;
 }
 
-.card-projects {
-  margin: 40px auto;
+.card-description {
+  width: 308px;
+}
+
+.projectimg {
   border-radius: 8px;
-  width: 800px;
-  height: 308px;
 }

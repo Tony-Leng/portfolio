@@ -13,9 +13,6 @@ h2 {
   margin-left: 270px;
 }
 
-.page {
-  position: relative;
-}
 
 /* main view///////////////////////// */
 .name {
@@ -61,7 +58,7 @@ h2 {
 }
 
 .aboutmetext {
-  margin: 40px auto;
+  margin: 120px auto;
   width: 800px;
 }
 
@@ -84,7 +81,6 @@ h2 {
   margin: 40px auto;
   width: 616px;
 }
-
 
 /* Responsive */
 @media (max-width: 960px) {

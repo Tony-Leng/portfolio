@@ -11,12 +11,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Tony Leng</title>
 </head>
 <body>
   <style>
     body {
-      background-image: url("images/background.jpg")
+      background-color:black;
     }
   </style>
   <div class="container-fluid">
@@ -48,62 +49,78 @@
     </div>
   </div>
 
-  <div class="language-icons">
-    <i class="devicon-html5-plain-wordmark"></i>
-    <i class="devicon-css3-plain-wordmark"></i>
-    <i class="devicon-javascript-plain"></i>
-    <i class="devicon-react-original-wordmark"></i>
-    <i class="devicon-bootstrap-plain-wordmark"></i>
+  <div data-aos="fade-left" data-aos-duration="1000">
+    <div class="language-icons">
+      <i class="devicon-html5-plain-wordmark"></i>
+      <i class="devicon-css3-plain-wordmark"></i>
+      <i class="devicon-javascript-plain"></i>
+      <i class="devicon-react-original-wordmark"></i>
+      <i class="devicon-bootstrap-plain-wordmark"></i>
+    </div>
   </div>
 
+  <div data-aos="fade-left" data-aos-duration="1000">
   <h2 id="aboutme">About Me</h2>
   <div class="container">
-    <p class="aboutmetext">Thanks for visiting my portfolio. My name is Tony and I was born and raised in San Diego, California, USA to refugee parents from Cambodia. I've been living and working in Tokyo, Japan since 2017. I enjoy front-end developing and designing things for the web. </p>
+      <p class="aboutmetext">Thanks for visiting my portfolio. My name is Tony and I was born and raised in San Diego, California, USA to refugee parents from Cambodia. I've been living and working in Tokyo, Japan since 2017. I enjoy front-end developing and designing things for the web. </p>
+  </div>
   </div>
 
-  <h2 id="myprojects">My Projects</h2>
-  <div class="container">
-    <div class="card-projects d-flex">
-      <div class="card-description">
-          <h4>PlayerWON</h4>
-          <p>Inspired by AirBnB, PlayerWON is a marketplace app that allows gamers to connect and find coaching or provide coaching.</p>
-          <p>Role: Front End</p>
-          <p>Tech Stack: Html, CSS, JS, Stimulus, Ruby on Rails, PostgreSQL </p>
-      </div>
-        <div class="projectimg" id="playerwon">
-            <img src="images/playerwon.png" alt="">
+  <div data-aos="fade-left" data-aos-duration="1000">
+    <h2 id="myprojects">My Projects</h2>
+    <div data-aos="fade-left" data-aos-duration="1000">
+      <div class="container">
+      <div class="card-projects d-flex">
+        <div class="card-description">
+            <h4>PlayerWON</h4>
+            <p>Inspired by AirBnB, PlayerWON is a marketplace app that allows gamers to connect and find coaching or provide coaching.</p>
+            <p>My role for this project was <strong>Front End Lead</strong>.</p>
+            <p>Html | CSS | JS | Stimulus | Ruby on Rails | PostgreSQL</p>
         </div>
+          <div class="projectimg" id="playerwon">
+              <img src="images/playerwon.png" alt="">
+          </div>
+      </div>
+      </div>
+    </div>
+
+    <div data-aos="fade-left" data-aos-duration="1000">
+      <div class="container">
+      <div class="card-projects d-flex">
+        <div class="card-description">
+          <h4>HealthWay</h4>
+            <p>A back office solution for HR departments in small to medium sized businesses intended to help streamline the health check process.</p>
+            <p>My role for this project was <strong>Front End Lead.</strong></p>
+            <p>Html | CSS | JS | Ruby on Rails | PostgreSQL</p>
+          </div>
+          <div class="projectimg" id="healthway">
+            <img src="images/healthway.png" alt="">
+          </div>
+      </div>
+      </div>
+    </div>
+
+    <div data-aos="fade-left" data-aos-duration="1000">
+      <div class="container">
+        <div class="card-projects d-flex">
+          <div class="card-description">
+            <h4>Watch List</h4>
+              <p>An app that lets you create lists to save your favorite movies. Practiced using N:N relationships between models, APIs and seeds.</p>
+              <p>My role for this project was <strong>Full Stack</strong>.</p>
+              <p>Html | CSS | JS | Bootstrap | Ruby on Rails | PostgreSQL</p>
+          </div>
+          <div class="projectimg" id="watchlist">
+            <img src="images/watchlist.png" alt="">
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
-  <div class="container">
-    <div class="card-projects d-flex">
-      <div class="card-description">
-        <h4>HealthWay</h4>
-          <p>A back office solution for HR departments in small to medium sized businesses intended to help streamline the health check process.</p>
-          <p>Role: Front End</p>
-          <p>Tech Stack: Html, CSS, JS, Ruby on Rails, PostgreSQL </p>
-        </div>
-        <div class="projectimg" id="healthway">
-          <img src="images/healthway.png" alt="">
-        </div>
-    </div>
+  <div class="socialicons">
+    <a href="https://github.com/Tony-Leng" target="_blank"><i class="fa-brands fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/tony-leng/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
   </div>
-
-  <div class="container">
-    <div class="card-projects d-flex">
-      <div class="card-description">
-        <h4>Watch List</h4>
-          <p>An app that lets you create lists to save your favorite movies. Practiced using N:N relationships between models, APIs and seeds.</p>
-          <p>Role: Full Stack</p>
-          <p>Tech Stack: Html, CSS, JS, Bootstrap, Ruby on Rails, PostgreSQL</p>
-      </div>
-      <div class="projectimg" id="watchlist">
-        <img src="images/watchlist.png" alt="">
-      </div>
-    </div>
-  </div>
-
   <!-- <h2>Contact Me</h2>
   <div class="contactme" id="contactme">
     <form
@@ -127,5 +144,9 @@
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
