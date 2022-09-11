@@ -124,7 +124,8 @@ html,body{
   }
 
   .aboutmetext {
-    width: 332px;
+    /* width: 332px; */
+    width: 100%;
     margin: 64px 0px;
   }
 
