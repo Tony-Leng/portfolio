@@ -13,6 +13,9 @@ h2 {
   margin-left: 270px;
 }
 
+html,body{
+  overflow-x: hidden;
+}
 
 /* main view///////////////////////// */
 .name {
@@ -121,7 +124,7 @@ h2 {
   }
 
   .aboutmetext {
-    width: 100%;
+    width: 100vw;
     margin: 64px 0px;
   }
 
@@ -136,6 +139,6 @@ h2 {
   }
 
   .projectimg {
-    max-width: 62% !important;
+    max-width: 65% !important;
   }
 }
