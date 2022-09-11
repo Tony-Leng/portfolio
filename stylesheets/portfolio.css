@@ -60,26 +60,8 @@ h2 {
 .aboutmetext {
   margin: 120px auto;
   width: 800px;
-}
-
-/* //////////////project-card//////////////// */
-.contactme {
-  margin-top: 80px;
-}
-
-.projectimg {
-  transition: transform 1s ease-in-out;
-}
-
-.projectimg:hover {
-  transition: transform 1s ease-in-out;
-  transform: scale(1.05);
-}
-
-
-.container {
-  margin: 40px auto;
-  width: 616px;
+  border-left: 2px solid #F8F0E3;
+  padding-left: 16px;
 }
 
 /* Responsive */

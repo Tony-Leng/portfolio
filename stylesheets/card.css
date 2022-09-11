@@ -13,4 +13,10 @@
 
 .projectimg {
   border-radius: 8px;
+  transition: transform 1s ease-in-out;
+}
+
+.projectimg:hover {
+  transition: transform 1s ease-in-out;
+  transform: scale(1.05);
 }
