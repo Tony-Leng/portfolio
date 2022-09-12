@@ -90,10 +90,11 @@ html,body{
   }
 
   .navbar {
-    padding-left: 8px !important;
+    /* padding-left: 8px !important;
     /* position: sticky; */
-    bottom: 0;
-    position: absolute;
+    /* bottom: 0;
+    position: absolute; */
+    display:none !important;
   }
 
   h1 {
