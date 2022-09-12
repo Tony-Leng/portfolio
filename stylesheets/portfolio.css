@@ -25,8 +25,8 @@ html,body{
 }
 .title {
     font-family: 'Roboto', sans-serif;
-    border-top: #F8F0E3 solid 2px;
-    padding-top: 24px;
+    border-bottom: #F8F0E3 solid 2px;
+    padding-bottom: 24px;
     animation: 3s anim-lineUp ease-out;
     text-align: center;
 }
@@ -86,10 +86,14 @@ html,body{
   /* For a screen < 540px, this CSS will be read */
   .container {
     width: 380px !important;
+    position: relative;
   }
 
   .navbar {
     padding-left: 8px !important;
+    /* position: sticky; */
+    bottom: 0;
+    position: absolute;
   }
 
   h1 {
@@ -141,5 +145,13 @@ html,body{
 
   .projectimg {
     max-width: 65% !important;
+  }
+
+  .fa-brands {
+    font-size: 40px !important;
+  }
+
+  .fa-square-envelope {
+    font-size: 40px !important;
   }
 }

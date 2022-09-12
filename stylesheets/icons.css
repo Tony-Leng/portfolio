@@ -12,14 +12,22 @@ i {
 
 .socialicons {
   display: flex;
-  flex-direction: column;
-  position: sticky;
-  margin-left: 24px;
-  bottom: 8px;
+  margin-top: 16px;
+  animation: 3s anim-lineUp ease-out;
+  /* flex-direction: column; */
+  /* position: sticky; */
+  /* margin-left: 24px; */
+  /* bottom: 8px; */
 }
 
 .fa-brands {
-  font-size: 50px;
+  font-size: 80px;
+  padding: 4px;
+  color: #F8F0E3;
+}
+
+.fa-square-envelope {
+  font-size: 80px;
   padding: 4px;
   color: #F8F0E3;
 }
