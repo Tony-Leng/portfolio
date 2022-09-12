@@ -67,6 +67,32 @@ html,body{
   padding-left: 16px;
 }
 
+.fa-arrow-down {
+  color: #F8F0E3;
+  text-decoration: none;
+}
+
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
 /* Responsive */
 /* @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
@@ -86,14 +112,9 @@ html,body{
   /* For a screen < 540px, this CSS will be read */
   .container {
     width: 380px !important;
-    position: relative;
   }
 
   .navbar {
-    /* padding-left: 8px !important;
-    /* position: sticky; */
-    /* bottom: 0;
-    position: absolute; */
     display:none !important;
   }
 
@@ -129,7 +150,6 @@ html,body{
   }
 
   .aboutmetext {
-    /* width: 332px; */
     width: 100%;
     margin: 64px 0px;
   }
