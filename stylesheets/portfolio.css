@@ -128,7 +128,7 @@ html,body{
     }
 
   h3 {
-    font-size: 16px !important;
+    font-size: 20px !important;
   }
 
   .initial-view {
@@ -138,11 +138,11 @@ html,body{
   #home-img {
     width: 240px;
     animation: 3s anim-lineUp ease-out;
-}
+  }
 
   .language-icons {
     margin-bottom: 64px !important;
-}
+  }
 
   #icon {
     font-size: 48px;
@@ -157,6 +157,7 @@ html,body{
   .card-description {
     width: 100%;
   }
+
   .card-projects {
     margin: 64px auto !important;
     flex-direction: column;
