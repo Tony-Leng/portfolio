@@ -151,7 +151,7 @@ html,body{
   }
 
   .icon2 {
-    font-size: 38px;
+    font-size: 38px !important;
     margin: 0px 4px;
   }
 
