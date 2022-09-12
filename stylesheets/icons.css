@@ -14,10 +14,6 @@ i {
   display: flex;
   margin-top: 16px;
   animation: 3s anim-lineUp ease-out;
-  /* flex-direction: column; */
-  /* position: sticky; */
-  /* margin-left: 24px; */
-  /* bottom: 8px; */
 }
 
 .fa-brands {
