@@ -4,6 +4,11 @@ i {
   color: #F8F0E3;
 }
 
+.icon2 {
+  font-size: 95px;
+  margin: 0px 4px;
+}
+
 .language-icons {
   justify-content: center;
   display: flex;
