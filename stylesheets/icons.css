@@ -17,7 +17,7 @@ i {
 
 .socialicons {
   display: flex;
-  margin-top: 16px;
+  margin-top: 18px;
   animation: 3s anim-lineUp ease-out;
 }
 
